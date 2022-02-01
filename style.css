@@ -1,0 +1,292 @@
+body{
+    background-color: white;
+
+}
+#header {
+    display:flex;
+    
+    justify-content: space-between;
+    list-style-type:none;
+    align-items:center;
+    margin: 20px;;
+
+
+}
+#header ul{
+    list-style-type:none;
+    display:flex;
+    
+    justify-content: space-between;
+    list-style-type:none;
+    gap:25px;
+    font-size: 16;
+    font-family:  'Lucida Sans Regular';
+     color:#B7A89F;
+     font-family: sans-serif;
+     margin:0px 10px
+
+
+}
+#header ul .about{
+    color:#332217;
+}
+#logo{
+    text-decoration: none;
+    color:#332217;
+    font-family:sans-serif;
+    margin:0px, 10px;
+}
+#hero{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    gap: 500px;
+    
+    padding: 10px;
+    margin: 10px;
+    padding-right:0px;
+    padding-top:0px;
+
+
+
+}
+#hero figure{
+    width:1000px;
+    height: 800px;
+    
+    
+    overflow:hidden;
+    margin-right:0px;
+    margin-top:0px; 
+    
+
+
+
+}
+#hero img{
+    width: 100%;
+}
+#hero p{
+    color:#19110B;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+#hero button{
+    background-color:#7F5539;
+    color:white;
+    border:none;
+    border-radius: 35px;
+    cursor: pointer;
+    padding:12px;
+    font-size: 12px;
+    width:170px;
+    margin-top: 10px;
+    
+    font-family: sans-serif;
+}
+#body{
+    
+    padding-top:0px;
+    padding-left: 0px;
+    display:flex;
+    gap:10px;
+    margin:0px 10px;
+    align-items: center;
+
+}
+#body figure{
+    overflow: hidden;
+    width: 1000px;
+    height:800px;
+    margin-left:0px;
+    
+    margin-top:0px;
+}
+#body img{
+    width:100%;
+    height:100%
+}
+#body h1{
+    color:#19110B;
+    margin-left:30px;
+
+}
+#body ul{
+    color:#332217;
+    margin-top:10px;
+}
+#section_id{
+    text-align: center;
+    
+}
+#section_id h1{
+    color:#19110B;
+}
+#services{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    
+
+
+}
+#services_1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    
+
+
+}
+ #services>.figure{
+    width:150px;
+    box-shadow: 0 0 10px #5555;
+    margin: 20px;
+    padding:10px;
+    overflow:hidden;
+    border-radius: 10px;
+    align-content: center;
+    
+}
+#services_1>figure{
+    width:150px;
+    box-shadow: 0 0 10px #5555;
+    margin: 20px;
+    padding:10px;
+    overflow:hidden;
+    border-radius: 10px;
+    align-content: center;
+}
+#services .image{
+    width:150px;
+    box-shadow: 0 0 10px white;
+    margin: 20px;
+    padding:10px;
+    background-color: #7F5539;
+    border-radius: 10px;
+
+
+}
+#services .image img{
+    height:120px;
+    height:80px;
+    background-image: white;
+}
+#section{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #E5DDD7;
+    height: 450px;
+    margin: 40px 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+
+}
+#section h2{
+    
+    padding:30px;
+    font-size: 16px;
+    
+}
+ 
+    
+
+#testimonials{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}
+#testimonials .group{
+    background-color: #7F5539;
+    width:200px;
+    color: white;
+    font-size: 14px;
+
+    padding-left: 10px 0px;
+    
+
+
+}
+
+
+#testimonials .group_1{
+    background-color: #7F5539;
+    color: white;
+    width:500px;
+    font-size:14px;
+    padding:10px;
+
+}
+#section #paragraph{
+    color:#7F5539;
+    padding:30px;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+    width: 500px;
+    height: 180px;
+
+}
+.display .figure{
+    overflow: hidden;
+    border: 3px white solid;
+    border-radius:70px;
+    width: 300px;
+    height:100px;
+    
+    
+    
+    
+
+    
+}
+.display .figure img{
+    width:100%;
+    border-radius: 70px;
+    height:100%
+
+    
+    
+}
+/* *{
+    padding:0px;
+    margin: 0px;
+} */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px; 
+    background-color: #7F5539;
+    padding:40px 20%;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    
+
+    
+}
+.items{
+    color: white;
+    margin-left: 180px;
+    
+}
+ .items h1{
+    font-size: 18px;
+    margin-bottom:20px;
+}
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+
+
